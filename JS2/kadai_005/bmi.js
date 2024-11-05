@@ -1,13 +1,13 @@
-let 体重 ;
+let bodyWeight ;
 
-体重 = 68;
+bodyWeight = 68;
 
-let 身長;
+let bodyHeight;
 
-身長 = 1.7;
+bodyHeight = 1.7;
 
 let BMI ;
 
-BMI = 体重 / ( 身長 * 身長 );
+BMI = bodyWeight / ( bodyHeight * bodyHeight );
 
 console.log(BMI)
